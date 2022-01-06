@@ -1,0 +1,7 @@
+celery beat command
+
+celery -A project beat -l INFO
+
+celery run command
+
+celery -A project worker --loglevel=info 
